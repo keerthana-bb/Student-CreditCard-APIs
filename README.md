@@ -1,6 +1,6 @@
 # Student API Collection
 
-This repository contains a collection of APIs related to student information management. It provides endpoints for accessing and managing student credit cards, bank accounts, credit card types, and other related resources.
+This repository contains a collection of APIs related to student product. It provides endpoints for accessing and managing student credit cards, bank accounts, credit card types, and other credit card related resources.
 
 ## API Endpoints
 
