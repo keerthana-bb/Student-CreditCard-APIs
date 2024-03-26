@@ -1,0 +1,386 @@
+{
+	"info": {
+		"_postman_id": "ed591940-f6c7-442d-8652-5d9d50e5c058",
+		"name": "Student_API_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28596367",
+		"_collection_link": "https://solar-comet-556261.postman.co/workspace/BBAssist~43a2321a-b420-4cdc-8c76-3c2119ea2263/collection/28596367-ed591940-f6c7-442d-8652-5d9d50e5c058?action=share&source=collection_link&creator=28596367"
+	},
+	"item": [
+		{
+			"name": "Credit Card",
+			"item": [
+				{
+					"name": "StudentCreditCards",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "GK$AI2024",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gkumar@700031cm.onmicrosoft.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/StudentCreditCards",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"StudentCreditCards"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "StudentBankAccounts",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "GK$AI2024",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gkumar@700031cm.onmicrosoft.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/StudentBankAccounts",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"StudentBankAccounts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreditCardTypes",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "GK$AI2024",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gkumar@700031cm.onmicrosoft.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/CreditCardTypes",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"CreditCardTypes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreditCardTypeCampuses",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "GK$AI2024",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gkumar@700031cm.onmicrosoft.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/CreditCardTypeCampuses",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"CreditCardTypeCampuses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreditCardBatchFiles",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "GK$AI2024",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gkumar@700031cm.onmicrosoft.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/CreditCardBatchFiles",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"CreditCardBatchFiles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreditCardBatchRefunds",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "GK$AI2024",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gkumar@700031cm.onmicrosoft.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/CreditCardBatchRefunds",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"CreditCardBatchRefunds"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreditCardBatchTransactions",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "GK$AI2024",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gkumar@700031cm.onmicrosoft.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/CreditCardBatchTransactions",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"CreditCardBatchTransactions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreditCardBatchFileSettings",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "GK$AI2024",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gkumar@700031cm.onmicrosoft.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/CreditCardBatchFileSettings",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"CreditCardBatchFileSettings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreditCardBatchFileSettingCampusAssociations",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "GK$AI2024",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gkumar@700031cm.onmicrosoft.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/CreditCardBatchFileSettingCampusAssociations",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"CreditCardBatchFileSettingCampusAssociations"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AccountStatuses",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "GK$AI2024",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gkumar@700031cm.onmicrosoft.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/AccountStatuses",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"AccountStatuses"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

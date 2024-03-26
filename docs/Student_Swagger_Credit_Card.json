@@ -1,0 +1,193 @@
+{
+	"openapi": "3.0.0",
+	"info": {
+		"title": "Student_API_Collection",
+		"version": "1.0.0"
+	},
+	"servers": [{
+		"url": "https://sisclientweb-700031.campusnexus.cloud"
+	}],
+	"components": {
+		"securitySchemes": {
+			"basicAuth": {
+				"type": "http",
+				"scheme": "basic"
+			}
+		}
+	},
+	"tags": [{
+		"name": "Credit Card"
+	}],
+	"paths": {
+		"/ds/campusnexus/StudentCreditCards": {
+			"get": {
+				"tags": ["Credit Card"],
+				"summary": "StudentCreditCards",
+				"security": [{
+					"basicAuth": []
+				}],
+				"responses": {
+					"200": {
+						"description": "Successful response",
+						"content": {
+							"application/json": {}
+						}
+					}
+				}
+			}
+		},
+		"/ds/campusnexus/StudentBankAccounts": {
+			"get": {
+				"tags": ["Credit Card"],
+				"summary": "StudentBankAccounts",
+				"security": [{
+					"basicAuth": []
+				}],
+				"responses": {
+					"200": {
+						"description": "Successful response",
+						"content": {
+							"application/json": {}
+						}
+					}
+				}
+			}
+		},
+		"/ds/campusnexus/CreditCardTypes": {
+			"get": {
+				"tags": ["Credit Card"],
+				"summary": "CreditCardTypes",
+				"security": [{
+					"basicAuth": []
+				}],
+				"responses": {
+					"200": {
+						"description": "Successful response",
+						"content": {
+							"application/json": {}
+						}
+					}
+				}
+			}
+		},
+		"/ds/campusnexus/CreditCardTypeCampuses": {
+			"get": {
+				"tags": ["Credit Card"],
+				"summary": "CreditCardTypeCampuses",
+				"security": [{
+					"basicAuth": []
+				}],
+				"responses": {
+					"200": {
+						"description": "Successful response",
+						"content": {
+							"application/json": {}
+						}
+					}
+				}
+			}
+		},
+		"/ds/campusnexus/CreditCardBatchFiles": {
+			"get": {
+				"tags": ["Credit Card"],
+				"summary": "CreditCardBatchFiles",
+				"security": [{
+					"basicAuth": []
+				}],
+				"responses": {
+					"200": {
+						"description": "Successful response",
+						"content": {
+							"application/json": {}
+						}
+					}
+				}
+			}
+		},
+		"/ds/campusnexus/CreditCardBatchRefunds": {
+			"get": {
+				"tags": ["Credit Card"],
+				"summary": "CreditCardBatchRefunds",
+				"security": [{
+					"basicAuth": []
+				}],
+				"responses": {
+					"200": {
+						"description": "Successful response",
+						"content": {
+							"application/json": {}
+						}
+					}
+				}
+			}
+		},
+		"/ds/campusnexus/CreditCardBatchTransactions": {
+			"get": {
+				"tags": ["Credit Card"],
+				"summary": "CreditCardBatchTransactions",
+				"security": [{
+					"basicAuth": []
+				}],
+				"responses": {
+					"200": {
+						"description": "Successful response",
+						"content": {
+							"application/json": {}
+						}
+					}
+				}
+			}
+		},
+		"/ds/campusnexus/CreditCardBatchFileSettings": {
+			"get": {
+				"tags": ["Credit Card"],
+				"summary": "CreditCardBatchFileSettings",
+				"security": [{
+					"basicAuth": []
+				}],
+				"responses": {
+					"200": {
+						"description": "Successful response",
+						"content": {
+							"application/json": {}
+						}
+					}
+				}
+			}
+		},
+		"/ds/campusnexus/CreditCardBatchFileSettingCampusAssociations": {
+			"get": {
+				"tags": ["Credit Card"],
+				"summary": "CreditCardBatchFileSettingCampusAssociations",
+				"security": [{
+					"basicAuth": []
+				}],
+				"responses": {
+					"200": {
+						"description": "Successful response",
+						"content": {
+							"application/json": {}
+						}
+					}
+				}
+			}
+		},
+		"/ds/campusnexus/AccountStatuses": {
+			"get": {
+				"tags": ["Credit Card"],
+				"summary": "AccountStatuses",
+				"security": [{
+					"basicAuth": []
+				}],
+				"responses": {
+					"200": {
+						"description": "Successful response",
+						"content": {
+							"application/json": {}
+						}
+					}
+				}
+			}
+		}
+	}
+}
