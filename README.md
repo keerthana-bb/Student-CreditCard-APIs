@@ -2,6 +2,12 @@
 
 This repository contains a collection of APIs related to student product. It provides endpoints for accessing and managing student credit cards, bank accounts, credit card types, and other credit card related resources.
 
+## Prerequisites
+Postman - latest version
+
+## Installation
+Download and install latest versoin of postman tool.
+
 ## API Endpoints
 
 - `/ds/campusnexus/StudentCreditCards`: Get student credit card information.
